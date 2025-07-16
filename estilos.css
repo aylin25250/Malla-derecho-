@@ -1,1 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffeef8;
+  color: #333;
+  padding: 20px;
+}
 
+h1 {
+  text-align: center;
+  color: #c2185b;
+}
+
+.malla {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.año {
+  background-color: #f8bbd0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.semestre h3 {
+  color: #880e4f;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background: #fff0f5;
+  border: 1px solid #e91e63;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background-color: #fce4ec;
+}
+
+li.tachado {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
